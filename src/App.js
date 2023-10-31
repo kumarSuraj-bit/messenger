@@ -1,10 +1,11 @@
 import './App.css';
+import ToggleColorMode from './components/ToggleColorMode';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+	<ToggleColorMode/>	
+    </>
   );
 }
 
