@@ -8,6 +8,6 @@ const ToggleColorMode = () => {
             {colorMode === 'dark' ? <SunIcon color="orange.500" /> : <MoonIcon color="blue.500" />}
         </Button>
     )
-}
+};
 
 export default ToggleColorMode;
